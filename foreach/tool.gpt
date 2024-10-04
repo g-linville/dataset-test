@@ -1,0 +1,6 @@
+name: foreach
+description: Perform an action on data
+param: dataset: the ID of the dataset
+param: dataset_type: the type of the dataset
+
+#!${GPTSCRIPT_TOOL_DIR}/bin/gptscript-go-tool

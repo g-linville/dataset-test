@@ -1,0 +1,4 @@
+tools: * from tool.gpt
+chat: true
+
+Please help me with Microsoft Excel. Start by asking me what I would like to do.
