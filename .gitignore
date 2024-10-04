@@ -3,3 +3,4 @@
 workspace/
 **/*.swp
 **/venv
+test.gpt

@@ -1,5 +1,5 @@
 Name: dataset-context
-Share Tools: sys.dataset.*
+Share Tools: sys.dataset.info, sys.dataset.load.one, sys.dataset.load.range, sys.dataset.load.all
 
 #!sys.echo
 
