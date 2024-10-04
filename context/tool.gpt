@@ -1,9 +1,0 @@
-Name: dataset-context
-Share Tools: sys.dataset.info, sys.dataset.load.one, sys.dataset.load.range, sys.dataset.load.all
-
-#!sys.echo
-
-Some of the tools that you call might return a dataset.
-A dataset is represented by a simple JSON string that contains a dataset ID.
-It will look something like {"gptscript_dataset_id": "1234"}.
-You can use the dataset ID to fetch the dataset contents using the sys.dataset tools.
