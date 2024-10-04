@@ -15,6 +15,7 @@ Param: workbook_id: ID of the workbook to list worksheets from
 ---
 Name: getWorksheetData
 Description: Get the data of a worksheet in a workbook.
+Share Context: github.com/g-linville/dataset-test/context
 Credential: github.com/gptscript-ai/gateway-oauth2 as excel.read with GPTSCRIPT_MICROSOFT_EXCEL_TOKEN as env and microsoft365 as integration and "Files.Read Files.Read.All User.Read offline_access" as scope
 Param: workbook_id: ID of the workbook to get worksheet data from
 Param: worksheet_id: ID of the worksheet to get data from

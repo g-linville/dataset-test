@@ -1,7 +1,0 @@
-tools: * from excel/tool.gpt
-tools: * from foreach/tool.gpt
-
-Find the Excel workbook called repos.xlsx and get the contents of worksheet Sheet1.
-If you get an error while getting the worksheet data, just print the error and exit.
-Call the foreach tool with the dataset information that you get from the Excel tools.
-Print the output of the foreach tool.
